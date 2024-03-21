@@ -1,4 +1,5 @@
 @echo off
+title setup
 set /p you=" download main program yes or no ? > "
 if %you%== yes goto :you
 if %you%== no  goto :exit
